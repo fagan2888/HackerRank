@@ -1,3 +1,4 @@
+# Best to try this on the website itself
 from abc import ABCMeta, abstractmethod
 class Book(object, metaclass=ABCMeta):
     def __init__(self,title,author):
